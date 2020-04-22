@@ -1,0 +1,70 @@
+/* CSS DARI RAIHAN */
+
+a {
+  text-decoration: none;
+}
+
+.blog-container{
+  padding: 0px 30px;
+}
+
+.blog-wrapper {
+  background-color:#232323;
+}
+
+.blog-heading {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 3px;
+  padding-top: 30px;
+  color: #f5f5f5;
+}
+
+.line {
+  border-top: 3px solid #ffd700;
+  margin: 0px 600px;
+  border-radius: 1px;
+}
+
+.blog-parts {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba (196, 196, 196, 0,2);
+  color: #f5f5f5;
+  padding-bottom: 60px;
+  margin-top: 50px;
+}
+
+.part {
+  flex: auto;
+  width: 20%;
+  text-align: center;
+}
+
+.blog-icon h3 {
+  font-size: 20px;
+}
+
+.blog-txt {
+  font-size: 14px;
+  padding: 0px 40px;
+  margin-bottom: 20px;
+}
+
+.readmore {
+  color: #ffd700;
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.row {
+  margin-left: 5px;
+}
+
+.readmore:hover {
+  opacity: 1 ;
+}
+
+/* MAU TAMBAH CSS DILAHKAN TAMBAH DI BAWAH YAA */
