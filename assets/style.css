@@ -5,7 +5,7 @@ a {
 }
 
 .blog-container{
-  padding: 0px 30px;
+  padding: 0px 50px;
 }
 
 .blog-wrapper {
@@ -20,6 +20,7 @@ a {
   margin-bottom: 3px;
   padding-top: 30px;
   color: #f5f5f5;
+  font-family: 'Courier New';
 }
 
 .line {
@@ -56,12 +57,14 @@ a {
 
 .blog-icon h3 {
   font-size: 18px;
+  font-family: 'Geneva';
 }
 
 .blog-txt {
   font-size: 14px;
   padding: 0px 40px;
   margin-bottom: 20px;
+  font-family: 'sans-serif';
 }
 
 .readmore {
