@@ -1,4 +1,4 @@
-/* CSS DARI RAIHAN */
+/* CSS BLOG */
 
 a {
   text-decoration: none;
@@ -57,14 +57,14 @@ a {
 
 .blog-icon h3 {
   font-size: 18px;
-  font-family: 'Geneva';
+  font-family: Geneva;
 }
 
 .blog-txt {
   font-size: 14px;
   padding: 0px 40px;
   margin-bottom: 20px;
-  font-family: 'sans-serif';
+  font-family: sans-serif;
 }
 
 .readmore {
@@ -80,6 +80,52 @@ a {
 
 .readmore:hover {
   opacity: 1 ;
+}
+
+/* CSS TEAM */
+
+.team-container {
+  width: 100%;
+
+  height: 220px;
+  }
+
+.team-heading {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'courier new';
+  padding-top: 20px;
+  color: #424242;
+  margin-bottom: 50px;
+}
+
+span {
+  color: #ffd700;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 300px;
+  color: #424242;
+  border-bottom: 2px solid #ffd700;
+  margin-bottom: 20px;
+  font-family: 'Lucida sans';
+}
+
+.member {
+  flex: auto;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.member img {
+ width: 150px;
+ margin-botom: 3px;
 }
 
 /* MAU TAMBAH CSS SILAHKAN TAMBAH DI BAWAH YAA */
