@@ -140,6 +140,7 @@ span {
   background-image: url("https://interiordesignersandceilingfans.eu/files/resized/53705/cropped/1170;410;af187dc158e157b39714090af91aea169dfdbe9d.jpg");
   text-align: center;
   color: #f5f5f5;
+  transition: all 4s;
 }
 
 .opening {
@@ -163,8 +164,10 @@ span {
   font-height: bold;
 }
 
-.learnmore:hover {
+.opening a:hover {
   color:#f5f5f5;
+  border: 2px solid #ffd700;
+  padding: 10px;
 }
 
 /*CSS TOP WRAPPER*/
