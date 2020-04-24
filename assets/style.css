@@ -130,69 +130,41 @@ span {
 
 
 /*CSS TOP WRAPPER*/
-.container {
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container h1 {
-  font-family: Arial;
-  font-weight: bold;
-}
-
-.container p {
-  font-family: Arial;
-  font-weight: normal;
+.top-container {
+  max-width: 1170px;
+  height: 410px;
+  margin: 0 auto;
 }
 
 .top-wrapper {
-  padding-top: 180px;
-  padding-bottom: 100px;
-  color: white;
-  background-color: #000000;
-  background-size: cover;
-  background-image: url(https://i.imgur.com/h4L1IJC.jpg);
+  background-image: url("https://interiordesignersandceilingfans.eu/files/resized/53705/cropped/1170;410;af187dc158e157b39714090af91aea169dfdbe9d.jpg");
+  text-align: center;
+  color: #f5f5f5;
 }
 
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 35px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
+.opening {
+  padding: 100px 50px;
+  background-color: #232323;
+  opacity: 0.6;
 }
 
-.top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
+.opening h1 {
+  font-family: 'franklin gothic medium';
+  font-size: 45px;
+  margin-bottom: 0px;
 }
 
-.btn {
-  padding: 12px24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
+.opening p {
+  margin-bottom: 60px;
+}
+.learnmore {
+  font-family: serif;
+  color: #ffd700;
+  font-height: bold;
 }
 
-.btn:hover {
-  opacity: 1;
-}
-
-.btn-wrapper {
-  margin-right: 10px 0;
-}
-
-.learn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  background-color: #02000c;
-  cursor: pointer;
-  box-shadow: 0 7px rgb(156, 151, 151);
+.learnmore:hover {
+  color:#f5f5f5;
 }
 
 /*CSS TOP WRAPPER*/
