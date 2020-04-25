@@ -1,6 +1,6 @@
 /* Header */
 
-/* .container {
+.container {
   width: 90%;
   margin: auto;
   overflow: hidden;
@@ -9,7 +9,7 @@
 ul {
   margin: 0;
   padding: 0;
-} */
+}
 
 header {
   background: #35424a;
