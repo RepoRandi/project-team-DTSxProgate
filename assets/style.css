@@ -1,3 +1,109 @@
+/* Header */
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: gold 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+form {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.highlight {
+  color: gold;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* Header */
+
+/* Showcase */
+#showcase {
+  min-height: 520px;
+  background: url('/assets/img/interior.jpg') no-repeat 0 -420px;
+  filter: brightness(70%);
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+#showcase p {
+  font-size: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: justify;
+}
+
+/* About */
+
+/* Main-col */
+article#main-col {
+  float: left;
+  width: 60%;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+/* Sidebar */
+aside#sidebar {
+  float: right;
+
+  margin-top: 40px;
+}
+
+/* About */
+
 /* CSS BLOG */
 
 a {
@@ -129,259 +235,155 @@ span {
   box-shadow: 5px 5px #c4c4c4;
   opacity: 1;
 
-.member img {
-  width: 150px;
-  margin-botom: 3px;
-}
+  .member img {
+    width: 150px;
+    margin-botom: 3px;
+  }
 
 
-/*CSS TOP WRAPPER*/
-.top-container {
-  max-width: 1170px;
-  height: 410px;
-  margin: 0 auto;
-}
+  /*CSS TOP WRAPPER*/
+  .top-container {
+    max-width: 1170px;
+    height: 410px;
+    margin: 0 auto;
+  }
 
-.top-wrapper {
-  background-image: url("https://interiordesignersandceilingfans.eu/files/resized/53705/cropped/1170;410;af187dc158e157b39714090af91aea169dfdbe9d.jpg");
-  text-align: center;
-  color: #f5f5f5;
-  transition: all 4s;
-}
+  .top-wrapper {
+    background-image: url("https://interiordesignersandceilingfans.eu/files/resized/53705/cropped/1170;410;af187dc158e157b39714090af91aea169dfdbe9d.jpg");
+    text-align: center;
+    color: #f5f5f5;
+    transition: all 4s;
+  }
 
-.opening {
-  padding: 100px 50px;
-  background-color: #232323;
-  opacity: 0.6;
-}
+  .opening {
+    padding: 100px 50px;
+    background-color: #232323;
+    opacity: 0.6;
+  }
 
-.opening h1 {
-  font-family: 'franklin gothic medium';
-  font-size: 45px;
-  margin-bottom: 0px;
-}
+  .opening h1 {
+    font-family: 'franklin gothic medium';
+    font-size: 45px;
+    margin-bottom: 0px;
+  }
 
-.opening p {
-  margin-bottom: 60px;
-}
-.learnmore {
-  font-family: serif;
-  color: #ffd700;
-  font-height: bold;
-}
+  .opening p {
+    margin-bottom: 60px;
+  }
 
-.opening a:hover {
-  color:#f5f5f5;
-  border: 2px solid #ffd700;
-  padding: 10px;
-}
+  .learnmore {
+    font-family: serif;
+    color: #ffd700;
+    font-height: bold;
+  }
 
-/*CSS TOP WRAPPER*/
+  .opening a:hover {
+    color: #f5f5f5;
+    border: 2px solid #ffd700;
+    padding: 10px;
+  }
 
-/* Header */
-
-.container {
-  width: 90%;
-  margin: auto;
-  overflow: hidden;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
+  /*CSS TOP WRAPPER*/
 
 
-header {
-  background: #35424a;
-  color: #ffffff;
-  padding-top: 30px;
-  min-height: 70px;
-  border-bottom: gold 3px solid;
-}
 
-header a {
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
+  /* MAU TAMBAH CSS SILAHKAN TAMBAH DI BAWAH YAA */
+  /* PROJECTS + FOOTER */
+  .projects-container {
+    width: 1170px;
+    margin: 0 auto;
+  }
 
-header li {
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
-}
+  .projects-wrapper {
+    background-color: #f5f5f5;
 
-header #branding {
-  float: left;
-}
+  }
 
-header #branding h1 {
-  margin: 0;
-}
+  .projects-heading h2 {
+    float: left;
+    font-family: 'Franklin gothic medium';
+    font-size: 30px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #ffd700;
+    border-radius: 3px;
+    margin-bottom: 0px;
+  }
 
-header nav {
-  float: right;
-  margin-top: 10px;
-}
+  .view {
+    float: right;
+    margin-top: 25px;
+    color: #232323;
+    padding: 10px;
+    font-family: 'lucida sans';
+    font-size: 14px;
+    font-weight: bold;
+    border: 3px solid #c4c4c4;
+    border-radius: 3px;
+  }
 
-form {
-  width: 500px;
-  margin: 50px auto;
-}
+  .view:hover {
+    background-color: #232323;
+    color: #ffd700;
+    border: none;
+    cursor: pointer;
+  }
 
-.highlight {
-  color: gold;
-  font-weight: bold;
-}
+  .project {
+    padding-top: 90px;
+    margin-left: 0px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #424242;
+  }
 
-header a:hover {
-  color: #cccccc;
-  font-weight: bold;
-}
+  .project img {
+    width: 22%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    box-shadow: 3px 8px 5px #c4c4c4;
+    opacity: 0.9;
+  }
 
-/* Showcase */
-#showcase {
-  min-height: 520px;
-  background: url('/assets/img/interior.jpg') no-repeat 0 -440px;
-  filter: brightness(70%);
-  text-align: center;
-  color: #ffffff;
-}
+  .project img:hover {
+    opacity: 1;
+    box-shadow: none;
+    cursor: pointer;
+  }
 
-#showcase h1 {
-  margin-top: 100px;
-  font-size: 55px;
-  margin-bottom: 10px;
-  color: whitesmoke;
-}
+  .footer-container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    color: #f5f5f5;
+  }
 
-#showcase p {
-  font-size: 20px;
-  margin-left: 400px;
-  margin-right: 400px;
-  text-align: justify;
-}
+  footer {
+    background-color: #232323;
+  }
 
-/* Header */
+  .footer-logo {
+    float: left;
+  }
 
-/* About */
+  .footer-logo h2 {
+    font-family: 'franklin gothic medium';
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
 
-/* Main-col */
-article#main-col {
-  float: left;
-  width: 60%;
-  margin-top: 50px;
-  text-align: justify;
-}
+  .footer-logo p {
+    font-size: 12px;
+    font-family: cambria;
+  }
 
-/* Sidebar */
-aside#sidebar {
-  float: right;
+  .footer-list {
+    margin-left: 1040px;
+    margin-top: -70px;
+    padding-bottom: 10px;
+    font-family: 'lucida sans';
+  }
 
-  margin-top: 40px;
-}
-
-/* About */
-
-/* MAU TAMBAH CSS SILAHKAN TAMBAH DI BAWAH YAA */
-/* PROJECTS + FOOTER */
-.projects-container {
-  width: 1170px;
-  margin: 0 auto;
-}
-
-.projects-wrapper {
-  background-color: #f5f5f5;
-
-}
-
-.projects-heading h2 {
-  float: left;
-  font-family: 'Franklin gothic medium';
-  font-size: 30px;
-  padding-bottom: 15px;
-  border-bottom: 3px solid #ffd700;
-  border-radius: 3px;
-  margin-bottom: 0px;
-}
-
-.view {
-  float: right;
-  margin-top: 25px;
-  color: #232323;
-  padding: 10px;
-  font-family: 'lucida sans';
-  font-size: 14px;
-  font-weight: bold;
-  border: 3px solid #c4c4c4;
-  border-radius: 3px;
-}
-
-.view:hover {
-  background-color:#232323;
-  color: #ffd700;
-  border: none;
-  cursor: pointer;
-}
-
-.project {
-  padding-top: 90px;
-  margin-left: 0px;
-  text-align: center;
-  padding-bottom:30px;
-  border-bottom: 3px solid #424242;
-}
-
-.project img {
-  width: 22%;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-top: 20px;
-  box-shadow:  3px 8px 5px #c4c4c4;
-  opacity: 0.9;
-}
-
-.project img:hover {
-  opacity: 1;
-  box-shadow: none;
-  cursor: pointer;
-}
-
-.footer-container{
-  width: 1170px;
-  margin: 0 auto;
-  display: flex;
-  color:#f5f5f5;
-}
-
-footer {
-  background-color: #232323;
-}
-
-.footer-logo {
-  float: left;
-}
-
-.footer-logo h2{
-  font-family: 'franklin gothic medium';
-  font-size: 25px;
-  margin-bottom: 0px;
-}
-
-.footer-logo p {
-  font-size: 12px;
-  font-family: cambria;
-}
-
-.footer-list {
-  margin-left: 1040px;
-  margin-top: -70px;
-  padding-bottom: 10px;
-  font-family: 'lucida sans';
-}
-
-.contact {
-  font-weight: bold;
-}
+  .contact {
+    font-weight: bold;
+  }
