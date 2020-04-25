@@ -280,3 +280,102 @@ aside#sidebar {
 /* About */
 
 /* MAU TAMBAH CSS SILAHKAN TAMBAH DI BAWAH YAA */
+/* PROJECTS + FOOTER */
+.projects-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.projects-wrapper {
+  background-color: #f5f5f5;
+
+}
+
+.projects-heading h2 {
+  float: left;
+  font-family: 'Franklin gothic medium';
+  font-size: 30px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #ffd700;
+  border-radius: 3px;
+  margin-bottom: 0px;
+}
+
+.view {
+  float: right;
+  margin-top: 25px;
+  color: #232323;
+  padding: 10px;
+  font-family: 'lucida sans';
+  font-size: 14px;
+  font-weight: bold;
+  border: 3px solid #c4c4c4;
+  border-radius: 3px;
+}
+
+.view:hover {
+  background-color:#232323;
+  color: #ffd700;
+  border: none;
+  cursor: pointer;
+}
+
+.project {
+  padding-top: 90px;
+  margin-left: 0px;
+  text-align: center;
+  padding-bottom:30px;
+  
+}
+
+.project img {
+  width: 22%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+  box-shadow:  3px 8px 5px #c4c4c4;
+  opacity: 0.9;
+}
+
+.project img:hover {
+  opacity: 1;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.footer-container{
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  color:#f5f5f5;
+}
+
+footer {
+  background-color: #232323;
+}
+
+.footer-logo {
+  float: left;
+}
+
+.footer-logo h2{
+  font-family: 'franklin gothic medium';
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.footer-logo p {
+  font-size: 12px;
+  font-family: cambria;
+}
+
+.footer-list {
+  margin-left: 1040px;
+  margin-top: -70px;
+  padding-bottom: 10px;
+  font-family: 'lucida sans';
+}
+
+.contact {
+  font-weight: bold;
+}
