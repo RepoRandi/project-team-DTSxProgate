@@ -1,64 +1,6 @@
 /* Header */
 
-.container {
-  width: 90%;
-  margin: auto;
-  overflow: hidden;
-}
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background: #35424a;
-  color: #ffffff;
-  padding-top: 30px;
-  min-height: 70px;
-  border-bottom: gold 3px solid;
-}
-
-header a {
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-header li {
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
-}
-
-header #branding {
-  float: left;
-}
-
-header #branding h1 {
-  margin: 0;
-}
-
-header nav {
-  float: right;
-  margin-top: 10px;
-}
-
-form {
-  width: 500px;
-  margin: 50px auto;
-}
-
-.highlight {
-  color: gold;
-  font-weight: bold;
-}
-
-header a:hover {
-  color: #cccccc;
-  font-weight: bold;
-}
 
 /* Header */
 
@@ -66,21 +8,6 @@ header a:hover {
 
 
 /* About */
-
-/* Main-col */
-article#main-col {
-  float: left;
-  width: 60%;
-  margin-top: 50px;
-  text-align: justify;
-}
-
-/* Sidebar */
-aside#sidebar {
-  float: right;
-
-  margin-top: 40px;
-}
 
 /* About */
   /*CSS TOP WRAPPER*/
