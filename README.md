@@ -1,3 +1,0 @@
-# Project Team DTS H-14
-
-PROYEK TIM HTML CSS KELAS PRO H-14 DTS Programming 2020
